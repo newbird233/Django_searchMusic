@@ -1,0 +1,67 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Find Music</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css'/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Custom Theme files -->
+    <link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css'/>
+    <!-- Custom Theme files -->
+    <!--webfont-->
+    <link href="{% static 'fonts/glyphicons-halflings-regular.eot' %}" rel='stylesheet' type='text/css'>
+    <link href="{% static 'fonts/glyphicons-halflings-regular.ttf' %}" rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/menu_jquery.js' %}"></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <h1><a href="{% url 'index' %}">Find Music</a></h1>
+        </div>
+        <div class="top_right">
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+{#<div class="price">#}
+{#    <div class="container">#}
+{#        <div class="clearfix"></div>#}
+{#    </div>#}
+{#</div>#}
+<div class="container">
+    <div class="single_box1">
+        <div class="col-sm-5 single_left">
+            <img src="{% static 'images/images.jpg' %}" class="img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-7 col_6">
+        
+{#            <ul class="size">#}
+{##}
+{#            </ul>#}
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="grid_2">
+        <div class="container">
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    {#<div class="grid_3">#}
+    
+    {#</div>#}
+</div>
+</body>
+</html>		
