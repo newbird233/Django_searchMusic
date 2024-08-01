@@ -12,10 +12,12 @@ a web that can search music downloadlink created by BaiduYun based Django
 ## Usage
 1.
 > clone repo to you work directory
+
 2.excute
 > python manage.py migrate
 3.
 > create table using sql file
+
 4.excute
 > python manage.py runserver
 
